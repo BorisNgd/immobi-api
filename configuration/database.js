@@ -1,9 +1,9 @@
 ﻿let config = {
     database: {
-        host: 'localhost',
-        user: 'root',
-        password: '',
-        database: 'logement',
+        host: 'remotemysql.com',
+        user: 'T7MR5Szqlh',
+        password: 'gMoODmoKuU',
+        database: 'T7MR5Szqlh',
         port: 3306
     }
 }
