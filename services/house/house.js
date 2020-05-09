@@ -59,7 +59,7 @@ const getHouses = (req , res , next) =>{
                 message:error.message
             })
         }else{
-            conn.query('SELECT houseID, title, reference, area, price, status, description, numberRoom, localisationID, houseTypeID FROM housing' , (err , rows , fields) =>{
+            conn.query('SELECT `house_id`, `title`, `reference`, `area`, `price`, `status`, `images`,`image_1` ,`image_2`, `image_3`, `imageUrl` as image, `description`, `number_of_room`, `number_of_bed_room`, `number_of_kitchen_room`, `number_living_room`, `number_of_bathroom`, `house_type`, `state`, `city`, `street`, `lattitude`, `longitude`, `visited_number`, `summary`, `entrance_condition`, `mise_en_avant`, `created_at`, `updated_at` FROM `house` ' , (err , rows , fields) =>{
                 if(err){
                     res.status(500);
                     res.json({
@@ -145,11 +145,58 @@ const updateHouse = (req , res , next) =>{
     }
 }
 
+const houseDetails = (req ,  res , next) =>{
+    res.send(req.params.id);
 
+}
+
+const houbeByCategoryAndCity = (req , res , next) =>{
+
+    let type = req.query.type;
+    let street = req.query.street;
+    let city = req.query.city;
+    let houseId = req.params.id;
+
+    req.getConnection((error , conn) =>{
+        if(error){
+            res.status(500);
+            res.json({
+                success:false,
+                message:error.message
+                });
+        }else{
+            conn.query('SELECT `house_id`, `title`, `reference`, `area`, `price`, `status`, `images`,`image_1` ,`image_2`, `image_3`, `imageUrl` as image, `description`, `number_of_room`, `number_of_bed_room`, `number_of_kitchen_room`, `number_living_room`, `number_of_bathroom`, `house_type`, `state`, `city`, `street`, `lattitude`, `longitude`, `visited_number`, `summary`, `entrance_condition`, `mise_en_avant`, `created_at`, `updated_at` FROM `house` WHERE `house_type` LIKE "%'+type+'%"   AND `city` LIKE "%'+city+'%"  AND `street` LIKE  "%'+street+'%" AND NOT(house_id = ?)', [houseId], (error , rows , fields) =>{
+                if(error){
+                    res.status(500);
+                    res.json({
+                        success:false,
+                        message:error.message
+                    });
+                }else{
+                    if(rows.length > 0){
+                        res.status(202);
+                        res.json({
+                            success:true,
+                            data:rows
+                        });
+                    }else{
+                        res.status(202);
+                        res.json({
+                            success:false,
+                            message:"Empty result"
+                        });
+                    }
+                }
+            });
+        }
+    });
+}
 
 module.exports = {
     createHouse: createHouse,
     getHouses: getHouses,
-    updateHouse: updateHouse
-  
+    updateHouse: updateHouse,
+    houseDetails:houseDetails,
+    houbeByCategoryAndCity:houbeByCategoryAndCity,
+
 };

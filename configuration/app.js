@@ -4,6 +4,8 @@ const path = require('path');
 const myConnection = require('express-myconnection')
 const mysql = require('mysql');
 const expressip = require('express-ip');
+const morgan = require('morgan');
+const winston = require('./config/winston');
 
 let appDir = path.dirname(require.main.filename);
 const publicDir = appDir + '/public';
@@ -31,10 +33,22 @@ module.exports = () => {
 
         //add middleware
         server.use(bodyParser.json());
-        server.use(bodyParser.urlencoded({ extended: false}));
+        server.use(bodyParser.urlencoded({ extended:true}));
         server.use(express.static(publicDir));
         server.use(myConnection(mysql, dbOptions, 'pool'));
         //server.use(expressip().getIpInfoMiddleware);
+        server.use(morgan('combined' , {stream:winston.stream}));
+        
+        //error handler
+        server.use(function(err , req , res , next) {
+            res.locals.message = err.message;
+            res.locals.error = req.server.get('env') === 'development' ? err : {};
+
+            winston.error(`${err.status || 500} - ${err.message} - ${req.orginalUrl} - ${req.method} - ${req.ip}`);
+
+            res.status(err.status || 500);
+            res.render('error'); 
+        })
 
         //routes
         routes.init(server);

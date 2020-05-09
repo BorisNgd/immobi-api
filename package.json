@@ -4,13 +4,14 @@
   "description": "API",
   "main": "server.js",
   "scripts": {
-    "test": "node server.js",
+    "test": "nodemon server.js",
     "start": "node server.js"
   },
   "author": {
     "name": "Boris Ngd"
   },
   "dependencies": {
+    "app-root-path": "^3.0.0",
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
@@ -20,9 +21,12 @@
     "express-myconnection": "^1.0.4",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.15",
-    "moment": "^2.24.0",
+    "moment": "^2.25.3",
+    "moment-timezone": "^0.5.28",
+    "morgan": "^1.10.0",
     "mysql": "^2.18.1",
     "nodemon": "^2.0.2",
-    "randomatic": "^3.1.1"
+    "randomatic": "^3.1.1",
+    "winston": "^3.2.1"
   }
 }

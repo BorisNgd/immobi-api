@@ -5,6 +5,7 @@ let geoAPIURL = 'http://ip-api.com/json/';
 let API = 'http://ip-api.com/json/?fields=status,message,lat,lon';
 
 var coords = [
+  {lat: 50.1161299 , lon:8.7088881 , name:'Zoo de Francort'},
 	{lat: 40.7127837, lon: -74.0059413, name: 'New York, NY'},
 	{lat: 34.0522342, lon: -118.2436849, name: 'Los Angeles, CA'},
 	{lat: 37.3382082, lon: -121.8863286, name: 'San Jose, CA'},
@@ -30,7 +31,7 @@ const createUser = (req, res, next) => {
 
     req.getConnection((error, conn) => {
       conn.query(
-        "SELECT * FROM users WHERE phoneNumber = ?",
+        "SELECT * FROM users WHERE phone_number = ?",
         [phoneNumber],
         (err, rows, fields) => {
           if (err) {
@@ -48,7 +49,7 @@ const createUser = (req, res, next) => {
               });
             } else {
               conn.query(
-                "INSERT INTO users(firstname, lastname, emailAddress, phoneNumber, city, state, UUID , street) VALUES(?,?,?,?,?,?,?,?)",
+                "INSERT INTO users(first_name, last_name, email_address, phone_number, city, state, UUID , street) VALUES(?,?,?,?,?,?,?,?)",
                 [
                   firstname,
                   lastname,
@@ -98,11 +99,11 @@ const createUser = (req, res, next) => {
 
 const getUser = (req , res , next) => {
 
-    let user = req.body;
-    var phoneNumber = user.phoneNumber;
+  let phoneNumber = req.params.phone;
+
     if(phoneNumber != null && phoneNumber != ''){
         req.getConnection((err , conn) =>{
-            conn.query('SELECT firstname , lastname , emailAddress , phoneNumber , state  , city , street , lattitude , longitude , accountType , UUID FROM users WHERE phoneNumber = ?' , [phoneNumber] , (err , rows , fields) => {
+            conn.query('SELECT first_name as firstname , last_name as lastname , email_address as emailAddress , phone_number as phoneNumber , state  , city , street , latitude , longitude , account_type as accountType , UUID FROM users WHERE phone_number = ?' , [phoneNumber] , (err , rows , fields) => {
                 if(err){
                     res.status(500);
                     res.json({success:false,
@@ -339,31 +340,35 @@ const generateOtp = (req , res , next) =>{
 
 const getUserLocation = (req , res , next) =>{
 
-  axios.get(geoAPIURL).then((response)=>{
-    if(response.data.status == 'success' &&  response.data.status != null && response.data.status != 'undefined'){
-    
-      console.log('IP ADDRESS', message);
-      res.status(202);
-      res.json({
-        succes:true,
-        data:response.data
-      })
+  axios.get(geoAPIURL).then(response =>{
+    if(response.data !== null){
+      if(response.data.status == 'success'){
+        res.json({
+          succes:true,
+          data:response.data
+        });
+      }else{
+        res.status(500);
+        res.json({
+          succes:false,
+          message:response.data.message
+        });
+      }
     }else{
-      res.status(500);
+      res.status(402);
       res.json({
         succes:false,
-        message:'Please check your internet connection'
-      })
+        message:response.data.message
+      });
     }
-   
-  }).catch((err) =>{
+  }).catch(err =>{
     res.status(500);
     res.json({
       succes:false,
-      message:err.message
-    })
-  })
-}
+      message:err
+    });
+  });
+  }
 
 function deg2rad(deg) {
 	return deg * (Math.PI/180)
@@ -387,11 +392,12 @@ const getDistanceFromLatLongKm = (req , res , next) =>{
   axios.get(API).then((response) =>{
     for(var i = 0; i < coords.length; i++) {
 			var diff = getDistanceFromLatLonInKm(coords[i].lat, coords[i].lon, response.data.lat, response.data.lon);
-      console.log('distance to ' + coords[i].name + ': ' + diff + 'km');
+      console.log('distance to ' + coords[i].name + ': ' + diff + ' km');
       res.status(202);
       res.json({
         succes:true,
-        message:'Success'
+        message:'Success',
+        distanceInKm:+diff+' KM'
       })
 		}
 

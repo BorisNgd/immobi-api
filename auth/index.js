@@ -4,7 +4,8 @@ const jwt = require('jsonwebtoken');
 const exjwt = require('express-jwt');
 
 const jwtMW = exjwt({
-    secret: SECRET_KEY
+    secret: SECRET_KEY,
 });
+
 
 module.exports = { jwt, jwtMW, SECRET_KEY };
