@@ -27,9 +27,9 @@ module.exports = () => {
         let routes = require('../routes');
 
         //set all the server things
-        server.set('env', config.env);
-        server.set('port', config.port);
-        server.set('hostname', config.hostname);
+        //server.set('env', config.env);
+        server.set('port', process.env.PORT || 300);
+        server.set('hostname', 'http://localhost');
 
         //add middleware
         server.use(bodyParser.json());
