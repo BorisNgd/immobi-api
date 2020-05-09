@@ -4459,3 +4459,9 @@ info: ::ffff:192.168.1.101 - - [09/May/2020:07:38:13 +0000] "GET /api/v1/categor
 
 info: ::ffff:192.168.1.101 - - [09/May/2020:07:38:14 +0000] "GET /api/v1/house/search/filter/4/?type=1&city=Douala&street=Makepe HTTP/1.1" 202 1523 "-" "okhttp/3.14.7"
 
+info: ::ffff:192.168.1.101 - - [09/May/2020:07:51:41 +0000] "GET /api/v1/user/information/+237691635552 HTTP/1.1" 202 277 "-" "okhttp/3.14.7"
+
+info: ::ffff:192.168.1.101 - - [09/May/2020:07:51:42 +0000] "GET /api/v1/house/all HTTP/1.1" 202 4300 "-" "okhttp/3.14.7"
+
+info: ::ffff:192.168.1.101 - - [09/May/2020:07:55:32 +0000] "GET /api/v1/key/?fbid=ae237e72-9b14-4105-89b0-1f6a678f6452 HTTP/1.1" 200 194 "-" "okhttp/3.14.7"
+
