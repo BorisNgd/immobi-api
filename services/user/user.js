@@ -116,7 +116,7 @@ const getUser = (req , res , next) => {
                             result:rows
                         });
                     }else{
-                        res.status(302);
+                        res.status(202);
                         res.json({
                             success:false,
                             message: "No user found"
