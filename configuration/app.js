@@ -28,7 +28,7 @@ module.exports = () => {
 
         //set all the server things
         //server.set('env', config.env);
-        server.set('port', process.env.PORT || 300);
+        server.set('port', process.env.PORT || 3000);
         server.set('hostname', 'http://localhost');
 
         //add middleware
