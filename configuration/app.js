@@ -23,7 +23,7 @@ let dbOptions = {
 module.exports = () => {
     let server = express(), create, start;
 
-    create = (config , database) => {
+    create = (database) => {
         let routes = require('../routes');
 
         //set all the server things
