@@ -3,7 +3,6 @@ const { jwt, SECRET_KEY } = require("../../auth");
 const createBooking = (req, res, next) => {
   let booking = req.body;
   var period = booking.period;
-  var status = booking.status;
   var price = booking.price;
   var information = booking.information;
   var comment = booking.comment;
@@ -20,8 +19,8 @@ const createBooking = (req, res, next) => {
         });
       } else {
         conn.query(
-          "INSERT INTO booking(period, status, bookingPrice, bookingInformation, bookingComment, usersID, houseID) VALUES (?,?,?,?,?,?,?)",
-          [period, status, price, information, comment, userID, houseID],
+          "INSERT INTO booking(period , booking_price, booking_info, booking_comment, user_id, house_id) VALUES (?,?,?,?,?,?)",
+          [period, price, information, comment, userID, houseID],
           (error, rows, fields) => {
             if (error) {
               res.status(500);
@@ -58,10 +57,9 @@ const createBooking = (req, res, next) => {
 };
 
 const getBookingByUser = (req, res, next) => {
-  var phoneNumber = req.query.phoneNumber;
+  var phoneNumber = req.params.phone;
 
   if (phoneNumber != null && phoneNumber != "") {
-    phoneNumber = "+" + phoneNumber;
     req.getConnection((err, conn) => {
       if (err) {
         res.status(500);
@@ -71,7 +69,7 @@ const getBookingByUser = (req, res, next) => {
         });
       } else {
         conn.query(
-          "SELECT bookingID, bookingDate, period, status, bookingPrice, bookingInformation, bookingComment, typePayment, usersID, houseID FROM booking INNER JOIN users ON booking.usersID = users.userID  WHERE users.phoneNumber = ? ",
+          "SELECT booking_id, booking_date , period, status, booking_price, booking_info, booking_comment, payment_type, booking.user_id, house_id FROM booking INNER JOIN users ON booking.user_id = users.user_id  WHERE users.phone_number = ? ",
           [phoneNumber],
           (err, rows, fields) => {
             if (err) {
@@ -84,7 +82,7 @@ const getBookingByUser = (req, res, next) => {
               if (rows.length > 0) {
                 res.status(202);
                 res.json({
-                  success: false,
+                  success:true,
                   data: rows
                 });
               } else {

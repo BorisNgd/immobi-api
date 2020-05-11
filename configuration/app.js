@@ -23,13 +23,13 @@ let dbOptions = {
 module.exports = () => {
     let server = express(), create, start;
 
-    create = (database) => {
+    create = (database , config) => {
         let routes = require('../routes');
 
         //set all the server things
         //server.set('env', config.env);
-        server.set('port', process.env.PORT || 3000);
-        server.set('hostname', 'http://localhost');
+        server.set('port', process.env.PORT || config.port);
+        server.set('hostname', config.hostname );
 
         //add middleware
         server.use(bodyParser.json());
@@ -78,8 +78,7 @@ module.exports = () => {
         let hostname = server.get('hostname');
         let port = server.get('port');
         server.listen(port, () => {
-            console.log('\x1b[43m','Server  running on  - http://' + hostname + ':' + port);
-            console.log('\x1b[0m', '');
+            console.log('\x1b[43m','Server  running on  - http://' + hostname + ':' + port + ' \x1b[0m');
         });
     };
 

@@ -42,7 +42,7 @@ const createUser = (req, res, next) => {
             });
           } else {
             if (rows.length > 0) {
-              res.status(302);
+              res.status(202);
               res.json({
                 success: false,
                 message: `User alredy exist with phone Number ${phoneNumber}`
@@ -103,7 +103,7 @@ const getUser = (req , res , next) => {
 
     if(phoneNumber != null && phoneNumber != ''){
         req.getConnection((err , conn) =>{
-            conn.query('SELECT first_name as firstname , last_name as lastname , email_address as emailAddress , phone_number as phoneNumber , state  , city , street , latitude , longitude , account_type as accountType , UUID FROM users WHERE phone_number = ?' , [phoneNumber] , (err , rows , fields) => {
+            conn.query('SELECT user_id , first_name as firstname , last_name as lastname , email_address as emailAddress , phone_number as phoneNumber , state  , city , street , latitude , longitude , account_type as accountType , UUID FROM users WHERE phone_number = ?' , [phoneNumber] , (err , rows , fields) => {
                 if(err){
                     res.status(500);
                     res.json({success:false,
@@ -180,7 +180,7 @@ const updateUser = (req , res , next) =>{
                       message:'Updated successfull'
                     })
                   }else{
-                    res.status(500);
+                    res.status(202);
                     res.json({
                       succes:false,
                       message:'Cannot update account'
@@ -189,7 +189,7 @@ const updateUser = (req , res , next) =>{
                 }
               })
             }else{
-              res.status(500);
+              res.status(202);
               res.json({
                 succes:false,
                 message:'User not found'
@@ -200,7 +200,7 @@ const updateUser = (req , res , next) =>{
       }
     })
   }else{
-    res.status(500);
+    res.status(522);
     res.json({
       succes:false,
       message:'Required parameter phone number is missing'
