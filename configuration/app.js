@@ -29,7 +29,7 @@ module.exports = () => {
         //set all the server things
         //server.set('env', config.env);
         server.set('port', process.env.PORT || config.port);
-        server.set('hostname', config.hostname );
+        server.set('hostname', 'http://localhost');
 
         //add middleware
         server.use(bodyParser.json());
