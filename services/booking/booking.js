@@ -89,7 +89,7 @@ const getBookingByUser = (req, res, next) => {
                 res.status(202);
                 res.json({
                   success: false,
-                  message: "Empty result"
+                  data: [],
                 });
               }
             }
