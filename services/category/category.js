@@ -3,7 +3,7 @@ const { jwt, SECRET_KEY } = require('../../auth');
 const createCategory = (req, res, next) => {
 
     let category = req.body;
-    let type_name = category.type_name;
+    let type_name = category.name;
 
     if(category != null && category != undefined ){
 
@@ -17,7 +17,7 @@ const createCategory = (req, res, next) => {
                         message:err.message
                     })
                 }else{
-                    conn.query('INSERT INTO logement_type(type_name) VALUES (?)' , [type_name] , (err , rows , fields) =>{
+                    conn.query('INSERT INTO `house_type`(`name`) VALUES (?)' , [type_name] , (err , rows , fields) =>{
                         if(err){
                             res.status(500);
                             res.json({
@@ -68,7 +68,7 @@ const getCategory = (req , res , next) =>{
                 message:error.message
             })
         }else{
-            conn.query('SELECT `type_id`, `type_name` FROM `logement_type`' , (err , rows , fields) =>{
+            conn.query('SELECT `id`, `name` FROM `house_type` ' , (err , rows , fields) =>{
                 if(err){
                     res.status(500);
                     res.json({
@@ -102,7 +102,7 @@ const updateCategory = (req , res , next) =>{
 
     if(categoryId != null && categoryId != ''){
 
-        if(category.type_name != null && category.type_name != ''){
+        if(category.name != null && category.name != ''){
 
             req.getConnection((err , conn) =>{
                 if(err){
@@ -112,7 +112,7 @@ const updateCategory = (req , res , next) =>{
                         message:err.message
                     })
                 }else{
-                    conn.query('UPDATE logement_type SET type_name= ? WHERE type_id = ?' , [category.type_name , categoryId] , (err , rows , fields) => {
+                    conn.query('UPDATE `house_type` SET `name`= ? WHERE id = ?' , [category.name , categoryId] , (err , rows , fields) => {
                         if(err){
                             res.status(500);
                             res.json({
@@ -170,7 +170,7 @@ const categoryDetails = (req ,  res , next) =>{
                     message:err.message
                 })
             }else{
-                conn.query('SELECT type_id , type_name FROM logement_type WHERE  type_id = ?' , [categoryId ] , (err , rows , fields) => {
+                conn.query('SELECT `id` , `name` FROM `house_type` WHERE  `id` = ?' , [categoryId ] , (err , rows , fields) => {
                     if(err){
                         res.status(500);
                         res.json({

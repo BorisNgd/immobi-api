@@ -2,7 +2,12 @@ const { jwt, SECRET_KEY } = require("../../auth");
 
 const createBooking = (req, res, next) => {
   let booking = req.body;
-  var period = booking.period;
+  let date = new  Date();
+  let bookingDate = date.toISOString().slice(0 , 19).replace('T' , ' ');
+  var startDate = booking.start_date;
+  var endDate = booking.end_date;
+  var status = 0;
+  var paymentType = 0
   var price = booking.price;
   var information = booking.information;
   var comment = booking.comment;
@@ -12,18 +17,18 @@ const createBooking = (req, res, next) => {
   if (booking.userID != null && booking.houseID != null) {
     req.getConnection((err, conn) => {
       if (err) {
-        res.status(500);
+        res.status(200);
         res.json({
           success: false,
           message: err.message
         });
       } else {
         conn.query(
-          "INSERT INTO booking(period , booking_price, booking_info, booking_comment, user_id, house_id) VALUES (?,?,?,?,?,?)",
-          [period, price, information, comment, userID, houseID],
+          "INSERT INTO `booking`(`house_id`, `customer_id`, `date`, `start_date`, `end_date`, `status`, `price`, `information`, `comment`, `payment_type`) VALUES (?,?,?,?,?,?,?,?,?,?)",
+          [houseID , userID , bookingDate , startDate , endDate , status , price , information , comment , paymentType],
           (error, rows, fields) => {
             if (error) {
-              res.status(500);
+              res.status(200);
               res.json({
                 success: false,
                 message: error.message
@@ -36,7 +41,7 @@ const createBooking = (req, res, next) => {
                   message: "Booking create successfully"
                 });
               } else {
-                res.status(500);
+                res.status(200);
                 res.json({
                   success: false,
                   message: "Unable to create booking"
@@ -68,8 +73,8 @@ const getBookingByUser = (req, res, next) => {
           message: err.message
         });
       } else {
-        conn.query(
-          "SELECT booking_id, booking_date , period, status, booking_price, booking_info, booking_comment, payment_type, booking.user_id, house_id FROM booking INNER JOIN users ON booking.user_id = users.user_id  WHERE users.phone_number = ? ",
+    
+        conn.query("SELECT booking.id, house.title , booking.house_id, booking.customer_id, booking.date, booking.start_date, booking.end_date, booking.status, booking.price, booking.information, booking.comment, booking.payment_type FROM booking INNER JOIN house ON booking.house_id = house.id INNER JOIN customer ON booking.customer_id = customer.id WHERE phone_number = ?",
           [phoneNumber],
           (err, rows, fields) => {
             if (err) {

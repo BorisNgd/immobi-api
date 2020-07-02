@@ -16,22 +16,22 @@ var coords = [
 
 const createUser = (req, res, next) => {
   let user = req.body;
-  let phoneNumber = user.phoneNumber;
+  let phoneNumber = user.phone;
 
   if (phoneNumber != null && phoneNumber != '') {
     var firstname = user.firstname;
     var lastname = user.lastname;
     var emailAddress = user.emailAddress;
-    var city = user.city;
     var state = user.state;
+    var city = user.city;
     var street = user.street;
-
-
+    var latitude = user.latitude;
+    var longitude = user.longitude;
     var UUID = randomize('Aa0' , 30);
 
     req.getConnection((error, conn) => {
       conn.query(
-        "SELECT * FROM users WHERE phone_number = ?",
+        "SELECT * FROM customer WHERE phone_number = ?",
         [phoneNumber],
         (err, rows, fields) => {
           if (err) {
@@ -48,42 +48,58 @@ const createUser = (req, res, next) => {
                 message: `User alredy exist with phone Number ${phoneNumber}`
               });
             } else {
-              conn.query(
-                "INSERT INTO users(first_name, last_name, email_address, phone_number, city, state, UUID , street) VALUES(?,?,?,?,?,?,?,?)",
-                [
-                  firstname,
-                  lastname,
-                  emailAddress,
-                  phoneNumber,
-                  city,
-                  state,
-                  UUID,
-                  street
-                ],
-                (err, rows, fields) => {
-                  if (err) {
-                    res.status(500);
-                    res.json({
-                      success: false,
-                      message: err.message
-                    });
-                  } else {
-                    if (rows.affectedRows > 0) {
-                      res.status(202);
-                      res.json({
-                        success: true,
-                        message: "User created"
-                      });
-                    } else {
-                      res.status(404);
-                      res.json({
-                        success: false,
-                        message: "Unable to create user"
-                      });
+              conn.query("INSERT INTO `location`(`state`, `city`, `street`, `latitude`, `longitude`) VALUES (?,?,?,?,?)" , [
+                state,
+                city,
+                street,
+                latitude,
+                longitude
+              ] , (err , result) =>{
+                if(err){
+                  res.status(500);
+                  res.json({
+                    succes:false,
+                    message:err.message
+                  });
+                }else{
+                  let insertedId = result.insertId;
+                  console.log('InsertedId', insertedId)
+                  conn.query(
+                    "INSERT INTO customer(firstname, lastname, email_address, phone_number, uuid , location_id ) VALUES(?,?,?,?,?,?)",
+                    [
+                      firstname,
+                      lastname,
+                      emailAddress,
+                      phoneNumber,
+                      UUID,
+                      insertedId
+                    ],
+                    (err, rows, fields) => {
+                      if (err) {
+                        res.status(500);
+                        res.json({
+                          success: false,
+                          message: err.message
+                        });
+                      } else {
+                        if (rows.affectedRows > 0) {
+                          res.status(202);
+                          res.json({
+                            success: true,
+                            message: "User created"
+                          });
+                        } else {
+                          res.status(404);
+                          res.json({
+                            success: false,
+                            message: "Unable to create user"
+                          });
+                        }
+                      }
                     }
-                  }
+                  );
                 }
-              );
+              })
             }
           }
         }
@@ -101,9 +117,11 @@ const getUser = (req , res , next) => {
 
   let phoneNumber = req.params.phone;
 
+
     if(phoneNumber != null && phoneNumber != ''){
         req.getConnection((err , conn) =>{
-            conn.query('SELECT user_id , first_name as firstname , last_name as lastname , email_address as emailAddress , phone_number as phoneNumber , state  , city , street , latitude , longitude , account_type as accountType , UUID FROM users WHERE phone_number = ?' , [phoneNumber] , (err , rows , fields) => {
+            conn.query(' SELECT customer.id, customer.location_id, customer.firstname, customer.lastname, customer.email_address as emailAddress , customer.phone_number as phoneNumber, location.state , location.city , location.street , location.latitude , location.longitude , customer.uuid as UUID FROM customer INNER JOIN location ON customer.location_id = location.id WHERE phone_number = ? ' , [phoneNumber]
+            , (err , rows , fields) => {
                 if(err){
                     res.status(500);
                     res.json({success:false,
@@ -143,11 +161,10 @@ const updateUser = (req , res , next) =>{
   let city = user.city;
   let state = user.state;
   let street = user.street;
-  let phoneNumber = req.query.phoneNumber;
+  let phoneNumber = req.params.phone;
   console.log('PHONE NUMBER', phoneNumber)
 
   if(phoneNumber != null && phoneNumber != '' && phoneNumber != 'undefined'){
-    phoneNumber = '+'+phoneNumber;
     req.getConnection((err , conn)=>{
       if(err){
         res.status(500);
@@ -156,7 +173,7 @@ const updateUser = (req , res , next) =>{
           message:err.message
         });
       }else{
-        conn.query('SELECT * FROM users WHERE phoneNumber = ?' , [phoneNumber] , (err, rows ,fields) =>{
+        conn.query('SELECT * FROM customer WHERE phone_number = ?' , [phoneNumber] , (err, rows ,fields) =>{
           if(err){
             res.status(500);
             res.json({
@@ -165,19 +182,39 @@ const updateUser = (req , res , next) =>{
             })
           }else{
             if(rows.length > 0){
-              conn.query('UPDATE users SET firstname = ? , lastname = ? , emailAddress = ? , city = ? , state = ? , street = ?  WHERE phoneNumber = ?' , [firstname , lastname , emailAddress , city , state , street , phoneNumber] , (err , rows , fields) =>{
+              console.log('ROWS', rows[0].location_id);
+              let location = rows[0].location_id;
+              conn.query('UPDATE `location` SET `state`= ? ,`city`= ? ,`street`= ? ,`latitude`= ? ,`longitude`= ? WHERE `id` = ?' , [state , city , street , "" , "" , location] , (err , results , fields) =>{
                 if(err){
                   res.status(500);
                   res.json({
-                    succes:false,
+                    succes: false,
                     message:err.message
                   })
                 }else{
-                  if(rows.affectedRows > 0){
-                    res.status(202);
-                    res.json({
-                      succes:true,
-                      message:'Updated successfull'
+                  if(results.affectedRows > 0){
+                    conn.query('UPDATE customer SET firstname = ? , lastname = ? , email_address = ?  WHERE phone_number = ?' , [firstname , lastname , emailAddress , phoneNumber] , (err , rows , fields) =>{
+                      if(err){
+                        res.status(500);
+                        res.json({
+                          succes:false,
+                          message:err.message
+                        })
+                      }else{
+                        if(rows.affectedRows > 0){
+                          res.status(202);
+                          res.json({
+                            succes:true,
+                            message:'Updated successfull'
+                          })
+                        }else{
+                          res.status(202);
+                          res.json({
+                            succes:false,
+                            message:'Cannot update account'
+                          })
+                        }
+                      }
                     })
                   }else{
                     res.status(202);
@@ -188,6 +225,7 @@ const updateUser = (req , res , next) =>{
                   }
                 }
               })
+
             }else{
               res.status(202);
               res.json({
