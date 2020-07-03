@@ -29,7 +29,7 @@ const updateToken = (req , res , next) =>{
           message:error.message
         });
       }else{
-        conn.query('UPDATE Customer SET token = ? WHERE phone_number = ?' , [ token , phone] , (error , rows , fields) =>{
+        conn.query('UPDATE customer SET token = ? WHERE phone_number = ?' , [ token , phone] , (error , rows , fields) =>{
           if(error){
             res.status(500);
             res.json({

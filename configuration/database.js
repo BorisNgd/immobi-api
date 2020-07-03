@@ -8,7 +8,7 @@
         port: 3306
     }   , */
 
-        database: {
+         database: {
         host: 'sql7.freemysqlhosting.net',
         user: 'sql7350790',
         password: 'gJdab8QTDZ',
@@ -16,14 +16,14 @@
         port: 3306
     }   ,
 
- /*      database: {
+  /*      database: {
         host: '127.0.0.1',
         user: 'root',
         password: '',
         database: 'bookings',
         port: 3306,
         local:3000
-    }   */
+    }   */ 
 }
 
 module.exports = config; 

@@ -13,7 +13,7 @@ router.get('/otp' ,  jwtMW , userService.verifyOtp);
 router.post('/otp' , jwtMW  , userService.generateOtp);
 router.get('/location' , jwtMW , userService.getUserLocation);
 router.get('/locate' , jwtMW , userService.getDistanceFromLatLongKm);
-router.get('/token/:phone' , jwtMW , user.updateToken);
+router.post('/token/:phone' , jwtMW , user.updateToken);
 
 
 module.exports = router;
