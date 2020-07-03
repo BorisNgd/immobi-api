@@ -14,6 +14,57 @@ var coords = [
 	];
 
 
+const updateToken = (req , res , next) =>{
+
+  let phone = req.params.phone;
+  let token = req.body.token;
+
+  if(phone !== null && phone !== 'undefined' && phone !== ''){
+
+    req.getConnection((error , conn) =>{
+      if(error){
+        res.status(500);
+        res.json({
+          succes:false,
+          message:error.message
+        });
+      }else{
+        conn.query('UPDATE Customer SET token = ? WHERE phone_number = ?' , [ token , phone] , (error , rows , fields) =>{
+          if(error){
+            res.status(500);
+            res.json({
+              succes:false,
+              message:error.message
+            });
+          }else{
+            if(rows.affectedRows > 0){
+              res.status(200);
+              res.json({
+                succes:true,
+                message:"Token send successfully"
+              })
+            }else{
+              res.status(500)
+              res.json({
+                succes:false,
+                message:"Unable to update token"
+              })
+            }
+          }
+        })
+      }
+    })
+
+  }else{
+    res.status(522);
+    res.json({
+      succes:false,
+      message:"Missing required parameter"
+    });
+  }
+
+}
+
 const createUser = (req, res, next) => {
   let user = req.body;
   let phoneNumber = user.phone;
@@ -452,6 +503,7 @@ const getDistanceFromLatLongKm = (req , res , next) =>{
 
 
 module.exports = {
+  updateToken: updateToken,
   createUser: createUser,
   getUser: getUser,
   verifyOtp: verifyOtp ,
