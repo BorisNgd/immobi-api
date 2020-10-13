@@ -1,10 +1,10 @@
 ﻿ let config = {
 
           database: {
-        host: 'localhost',
-        user: 'id15108856_root',
-        password: 'Boris141997@',
-        database: 'id15108856_emotion_world',
+        host: 'remotemysql.com',
+        user: '6pu5baYbv9',
+        password: 'FksmmBLLC2',
+        database: '6pu5baYbv9',
         port: 3306
     }   , 
 
