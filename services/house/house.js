@@ -287,12 +287,109 @@ const getHouseAttachments = (req, res, next) => {
     }
 }
 
+const getHouseByHouseType = ((req , res , next) =>{
+
+    req.getConnection((err , conn) =>{
+        if(err){
+            res.status(500);
+            res.json({
+                success:false,
+                message:err.message
+            });
+        }else{
+            conn.query("SELECT `id`, `name` FROM `house_type`" , (error , results , fields) =>{
+                if(error){
+                    res.status(500);
+                    res.json({
+                        success:false,
+                        message:error.message
+                    });
+                }else{
+                    if(results.length > 0){
+                        let house_type = results;
+                        conn.query("SELECT `id`, `house_type_id`, `location_id`, `title`, `reference`, `area`, `price`, `status`, `picture`, `description`, `number_of_room`, `number_of_bed_room`, `number_of_kitchen_room`, `number_of_living_room`, `visitor_count`, `entrance_condition`, `promote`, `created_at`, `updated_at` FROM `house` " , (error , results , fields) =>{
+                            if(error){
+                                res.status(500);
+                                res.json({
+                                    success:false,
+                                    message:error.message
+                                });
+                            }else{
+                                if(results.length > 0){
+                                   let houses = results;
+
+                                   for(let i = 0 ; i < house_type.length ; i++){
+                                       let arrayHouses = [];
+                                       for(let x = 0 ; x < houses.length; x++){
+                                           if(house_type[i].id == houses[x].house_type_id){
+                                               arrayHouses.push(houses[x]);
+                                           }
+                                       }
+                                        house_type[i].houses = arrayHouses;
+
+                                   }
+                                   let data = [];
+                                   let banners = [
+                                       {
+                                       "id":1,
+                                       "name":"Thop & Yamo 4",
+                                       "image":"tomates.jpg"
+                                    },
+                                    {
+                                        "id":2,
+                                        "name":"Thop & Yamo 4",
+                                        "image":"tomates.jpg"
+                                     },
+                                     {
+                                        "id":3,
+                                        "name":"Thop & Yamo 4",
+                                        "image":"tomates.jpg"
+                                     },
+                                     {
+                                        "id":4,
+                                        "name":"Thop & Yamo 4",
+                                        "image":"tomates.jpg"
+                                     },
+                                ]
+                                   data.push(house_type);
+                                   data.push(banners)
+                                    res.status(202);
+                                    res.json({
+                                        success:true,
+                                        data:house_type,
+                                        banners:banners
+                                    })
+                                }else{
+                                    res.status(202);
+                                    res.json({
+                                        success:false,
+                                        message:"Product found"
+                                    })
+                                }
+                            }
+                        })
+                    }else{
+                        res.status(202);
+                        res.json({
+                            success:false,
+                            message:"No category found"
+                        })
+                    }
+
+                }
+            })
+        }
+    })
+
+})
+
 module.exports = {
     createHouse: createHouse,
     getHouses: getHouses,
     updateHouse: updateHouse,
     houseDetails: houseDetails,
     houbeByCategoryAndCity: houbeByCategoryAndCity,
+    getHouseByHouseType: getHouseByHouseType,
     getHouseAttachments: getHouseAttachments,
 
 };

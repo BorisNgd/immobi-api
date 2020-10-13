@@ -10,5 +10,6 @@ router.put('/update' , jwtMW , houseService.updateHouse);
 router.get('/details/:id' , jwtMW , houseService.houseDetails);
 router.get('/search/filter/:id' , jwtMW , houseService.houbeByCategoryAndCity);
 router.get('/attachments/:id' , jwtMW , houseService.getHouseAttachments);
+router.get('/genres' , jwtMW , houseService.getHouseByHouseType);
 
 module.exports = router;
