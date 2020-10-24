@@ -1,6 +1,6 @@
 ﻿ let config = {
 
-          database: {
+           database: {
         host: 'remotemysql.com',
         user: '6pu5baYbv9',
         password: 'FksmmBLLC2',
@@ -8,14 +8,14 @@
         port: 3306
     }   , 
 
-       /*  database: {
+      /*   database: {
         host: '127.0.0.1',
         user: 'root',
-        password: '',
+        password: 'root',
         database: 'bookings',
         port: 3306,
-        local:3000 
-    }  */ 
+        local:3000  */
+    }  
 }
 
 module.exports = config; 

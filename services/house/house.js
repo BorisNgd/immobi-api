@@ -89,6 +89,74 @@ const getHouses = (req, res, next) => {
     })
 }
 
+const getHouseByGenre = (req, res, next) => {
+    req.getConnection((err, conn) => {
+      if (err) {
+        res.status(500);
+        res.json({
+          success: false,
+          message: err.message,
+        });
+      } else {
+        conn.query("SELECT * FROM house_type", (error, results, fields) => {
+          if (error) {
+            res.status(500);
+            res.json({
+              success: false,
+              message: error.message,
+            });
+          } else {
+            if (results.length > 0) {
+              let category = results;
+              conn.query("SELECT house.id, house.house_type_id, house.location_id, house.title, house.reference, house.area, house.price, house.status, house.picture, house.description, house.number_of_room, house.number_of_bed_room, house.number_of_kitchen_room, house.number_of_living_room, house.visitor_count, house.entrance_condition, house.promote, location.state , location.city , location.street , location.latitude , location.longitude , house_type.name , house.created_at, house.updated_at FROM house INNER JOIN location ON house.location_id = location.id INNER JOIN house_type ON house.house_type_id = house_type.id", (error, results, fields) => {
+                if (error) {
+                  res.status(500);
+                  res.json({
+                    success: false,
+                    message: error.message,
+                  });
+                } else {
+                  if (results.length > 0) {
+                    let products = results;
+  
+                    for (let i = 0; i < category.length; i++) {
+                      let arrayProducts = [];
+                      for (let x = 0; x < products.length; x++) {
+                        if (category[i].id == products[x].house_type_id) {
+                          arrayProducts.push(products[x]);
+                        }
+                      }
+                      category[i].products = arrayProducts;
+                    }
+                    let data = [];
+                    data.push(category);
+                    res.status(202);
+                    res.json({
+                      success: true,
+                      data: category,
+                    });
+                  } else {
+                    res.status(202);
+                    res.json({
+                      success: true,
+                      data: [],
+                    });
+                  }
+                }
+              });
+            } else {
+              res.status(202);
+              res.json({
+                success: false,
+                category: [],
+              });
+            }
+          }
+        });
+      }
+    });
+  };
+
 const updateHouse = (req, res, next) => {
 
     let houseID = req.query.house
@@ -238,6 +306,55 @@ const houbeByCategoryAndCity = (req, res, next) => {
         }
     });
 }
+
+
+const searchHouse = (req, res, next) => {
+
+    let type = req.query.type;
+    let street = req.query.street;
+    let city = req.query.city;
+    let min = req.query.minprice;
+    let max = req.query.maxprice
+
+    console.log(city);
+
+
+    req.getConnection((error, conn) => {
+        if (error) {
+            res.status(500);
+            res.json({
+                success: false,
+                message: error.message
+            });
+        } else {
+
+            conn.query(' SELECT house.id, house.house_type_id, house.location_id, house.title, house.reference, house.area, house.price, house.status, house.picture, house.description, house.number_of_room, house.number_of_bed_room, house.number_of_kitchen_room, house.number_of_living_room, house.visitor_count, house.entrance_condition, house.promote, location.state , location.city , location.street , location.latitude , location.longitude , house_type.name , house.created_at, house.updated_at FROM house INNER JOIN location ON house.location_id = location.id INNER JOIN house_type ON house.house_type_id = house_type.id', (error, rows, fields) => {
+                if (error) {
+                    res.status(500);
+                    res.json({
+                        success: false,
+                        message: error.message
+                    });
+                } else {
+                    if (rows.length > 0) {
+                        res.status(202);
+                        res.json({
+                            success: true,
+                            data: rows
+                        });
+                    } else {
+                        res.status(202);
+                        res.json({
+                            success: false,
+                            message: "Empty result"
+                        });
+                    }
+                }
+            });
+        }
+    });
+}
+
 
 const getHouseAttachments = (req, res, next) => {
 
@@ -391,5 +508,7 @@ module.exports = {
     houbeByCategoryAndCity: houbeByCategoryAndCity,
     getHouseByHouseType: getHouseByHouseType,
     getHouseAttachments: getHouseAttachments,
+    getHouseByGenre: getHouseByGenre,
+    searchHouse , searchHouse
 
 };

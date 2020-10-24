@@ -310,3 +310,1255 @@ info: ::ffff:127.0.0.1 - - [24/Aug/2020:13:02:51 +0000] "GET /api/v1/house/all H
 
 info: ::ffff:127.0.0.1 - - [24/Aug/2020:13:03:03 +0000] "GET /api/v1/house/genres HTTP/1.1" 202 2322 "-" "PostmanRuntime/7.26.3"
 
+info: ::ffff:127.0.0.1 - - [23/Oct/2020:13:44:51 +0000] "GET / HTTP/1.1" 404 139 "-" "PostmanRuntime/7.26.4"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:07:37 +0000] "GET /api/v1/house/all HTTP/1.1" 500 116 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:07:37 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 500 115 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:08:21 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:08:21 +0000] "GET /api/v1/house/all HTTP/1.1" 202 2293 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:08:57 +0000] "GET /api/v1/category/all HTTP/1.1" 202 160 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:08:57 +0000] "GET /api/v1/house/attachments/1 HTTP/1.1" 202 1144 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:09:47 +0000] "GET /api/v1/house/all HTTP/1.1" 202 2293 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:09:47 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:10:02 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:10:02 +0000] "GET /api/v1/house/all HTTP/1.1" 202 2293 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:21:12 +0000] "GET /api/v1/category/all HTTP/1.1" 202 160 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:21:12 +0000] "GET /api/v1/house/attachments/1 HTTP/1.1" 202 1144 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:30:34 +0000] "GET /api/v1/house/all HTTP/1.1" 202 2293 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:30:34 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:32:10 +0000] "GET /api/v1/house/all HTTP/1.1" 202 2293 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:32:10 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:38:00 +0000] "GET /api/v1/house/all HTTP/1.1" 202 2293 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:38:00 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:39:23 +0000] "GET /api/v1/house/all HTTP/1.1" 202 2293 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:39:23 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:39:32 +0000] "GET /api/v1/house/all HTTP/1.1" 202 2293 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:39:32 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:39:36 +0000] "GET /api/v1/house/all HTTP/1.1" 202 2293 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:39:36 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:39:46 +0000] "GET /api/v1/house/all HTTP/1.1" 202 2293 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:39:46 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:40:14 +0000] "GET /api/v1/category/all HTTP/1.1" 202 160 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:40:14 +0000] "GET /api/v1/house/attachments/1 HTTP/1.1" 202 1144 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:45:55 +0000] "GET /api/v1/house/all HTTP/1.1" 202 2264 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:45:55 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:49:42 +0000] "GET /api/v1/house/all HTTP/1.1" 202 2264 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:49:42 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:49:56 +0000] "GET /api/v1/category/all HTTP/1.1" 202 160 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:49:56 +0000] "GET /api/v1/house/attachments/1 HTTP/1.1" 202 294 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:50:08 +0000] "GET /api/v1/category/all HTTP/1.1" 202 160 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:50:08 +0000] "GET /api/v1/house/attachments/2 HTTP/1.1" 202 284 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:50:24 +0000] "GET /api/v1/category/all HTTP/1.1" 202 160 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:50:24 +0000] "GET /api/v1/house/attachments/1 HTTP/1.1" 202 294 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:50:44 +0000] "GET /api/v1/category/all HTTP/1.1" 202 160 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:14:50:44 +0000] "GET /api/v1/house/attachments/2 HTTP/1.1" 202 284 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:15:00:15 +0000] "GET /api/v1/category/all HTTP/1.1" 202 160 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:15:00:15 +0000] "GET /api/v1/house/attachments/1 HTTP/1.1" 202 294 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:16:26:16 +0000] "GET /api/v1/house/all HTTP/1.1" 202 2264 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:16:26:16 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:16:26:20 +0000] "GET /api/v1/house/all HTTP/1.1" 202 2264 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:16:26:20 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:127.0.0.1 - - [23/Oct/2020:16:36:36 +0000] "GET /api/v1/house/home HTTP/1.1" 404 156 "-" "PostmanRuntime/7.26.4"
+
+info: ::ffff:127.0.0.1 - - [23/Oct/2020:16:37:03 +0000] "GET /api/v1/house/home HTTP/1.1" 500 92 "-" "PostmanRuntime/7.26.4"
+
+info: ::ffff:127.0.0.1 - - [23/Oct/2020:16:38:58 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2075 "-" "PostmanRuntime/7.26.4"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:19:36:13 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2075 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:19:36:13 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:19:41:15 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:19:41:15 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:19:47:12 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:19:47:12 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:19:49:36 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:19:49:36 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:19:58:07 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:19:58:07 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:19:59:22 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:19:59:22 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:00:36 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:00:36 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:05:38 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:05:38 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:06:56 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:06:56 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:10:19 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:10:19 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:13:29 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:13:29 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:14:30 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:14:30 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:16:59 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:16:59 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:18:08 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:18:08 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:19:08 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:19:08 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:24:07 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:24:07 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:127.0.0.1 - - [23/Oct/2020:20:27:18 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "PostmanRuntime/7.26.4"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:34:38 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:34:38 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:36:21 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:36:22 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:38:26 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:38:26 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:41:31 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:41:31 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:46:14 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:20:46:14 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1301:14)
+    at listenInCluster (net.js:1349:12)
+    at Server.listen (net.js:1437:7)
+    at Function.listen (C:\Users\User\source\repos\API\API\node_modules\express\lib\application.js:618:24)
+    at Object.start (C:\Users\User\source\repos\API\API\configuration\app.js:80:16)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\server.js:11:8)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14) {"error":{"code":"EADDRINUSE","errno":"EADDRINUSE","syscall":"listen","address":"::","port":3000},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1301:14)\n    at listenInCluster (net.js:1349:12)\n    at Server.listen (net.js:1437:7)\n    at Function.listen (C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.start (C:\\Users\\User\\source\\repos\\API\\API\\configuration\\app.js:80:16)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\server.js:11:8)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)","exception":true,"date":"Fri Oct 23 2020 22:43:34 GMT+0100 (West Africa Standard Time)","process":{"pid":9284,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":147775488,"heapTotal":18444288,"heapUsed":12291456,"external":110233024}},"os":{"loadavg":[0,0,0],"uptime":269505},"trace":[{"column":14,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1301,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1349,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1437,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":16,"file":"C:\\Users\\User\\source\\repos\\API\\API\\configuration\\app.js","function":"Object.start","line":80,"method":"start","native":false},{"column":8,"file":"C:\\Users\\User\\source\\repos\\API\\API\\server.js","function":null,"line":11,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Oct/2020:21:44:47 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "PostmanRuntime/7.26.4"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:46:12 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:46:12 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:46:26 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:46:26 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:46:27 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:46:34 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:46:34 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:46:44 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:46:44 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:48:02 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:48:02 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:49:25 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:49:25 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:52:44 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:52:44 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:54:16 +0000] "GET /api/v1/house/home HTTP/1.1" 202 1915 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:54:16 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:127.0.0.1 - - [23/Oct/2020:21:56:25 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "PostmanRuntime/7.26.4"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:56:36 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:56:36 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:57:33 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 27 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:57:35 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:57:42 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:57:42 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:57:57 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 27 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:57:58 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:58:04 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 27 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:58:06 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:58:07 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 27 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:58:10 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 27 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:58:20 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:58:24 +0000] "GET /api/v1/category/all HTTP/1.1" 202 56 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:58:24 +0000] "GET /api/v1/house/attachments/1 HTTP/1.1" 202 294 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:58:31 +0000] "GET /api/v1/category/all HTTP/1.1" 202 56 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:58:31 +0000] "GET /api/v1/house/attachments/3 HTTP/1.1" 202 307 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:58:37 +0000] "GET /api/v1/house/attachments/1 HTTP/1.1" 202 294 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:58:37 +0000] "GET /api/v1/category/all HTTP/1.1" 202 56 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:58:46 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:58:52 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:58:55 +0000] "GET /api/v1/category/all HTTP/1.1" 202 56 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:58:55 +0000] "GET /api/v1/house/attachments/1 HTTP/1.1" 202 294 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:58:59 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 27 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:59:01 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:59:03 +0000] "GET /api/v1/category/all HTTP/1.1" 202 56 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:59:03 +0000] "GET /api/v1/house/attachments/3 HTTP/1.1" 202 307 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:59:09 +0000] "GET /api/v1/category/all HTTP/1.1" 202 56 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:59:09 +0000] "GET /api/v1/house/attachments/1 HTTP/1.1" 202 294 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:59:13 +0000] "GET /api/v1/category/all HTTP/1.1" 202 56 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:59:13 +0000] "GET /api/v1/house/attachments/3 HTTP/1.1" 202 307 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:59:17 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 27 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:59:24 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:59:30 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:59:40 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:59:45 +0000] "GET /api/v1/category/all HTTP/1.1" 202 56 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:59:45 +0000] "GET /api/v1/house/attachments/1 HTTP/1.1" 202 294 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:59:51 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:59:54 +0000] "GET /api/v1/house/attachments/2 HTTP/1.1" 202 284 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:21:59:54 +0000] "GET /api/v1/category/all HTTP/1.1" 202 56 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:00:18 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:00:21 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:00:24 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:00:26 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 27 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:00:28 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:00:35 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:00:38 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:00:43 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:01:07 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:01:10 +0000] "GET /api/v1/house/attachments/3 HTTP/1.1" 202 307 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:01:10 +0000] "GET /api/v1/category/all HTTP/1.1" 202 56 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:01:52 +0000] "POST /api/v1/booking/create HTTP/1.1" 200 56 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:01:58 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 289 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:02:13 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:02:20 +0000] "GET /api/v1/category/all HTTP/1.1" 202 56 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:02:20 +0000] "GET /api/v1/house/attachments/1 HTTP/1.1" 202 294 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:02:28 +0000] "GET /api/v1/category/all HTTP/1.1" 202 56 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:02:28 +0000] "GET /api/v1/house/attachments/3 HTTP/1.1" 202 307 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:07:52 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:07:52 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:07:59 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:07:59 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:12:14 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:12:14 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:12:44 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:12:44 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:13:07 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:13:07 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:14:54 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:14:54 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:15:03 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:15:03 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:15:09 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2308 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:15:09 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:17:43 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:17:43 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:18:00 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:18:00 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:18:02 +0000] "GET /api/v1/category/all HTTP/1.1" 202 110 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:18:02 +0000] "GET /api/v1/house/attachments/4 HTTP/1.1" 202 59 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:21:07 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:21:07 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:21:42 +0000] "GET /api/v1/category/all HTTP/1.1" 202 110 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:21:42 +0000] "GET /api/v1/house/attachments/4 HTTP/1.1" 202 59 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:21:53 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:23:42 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:23:42 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:23:53 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 289 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:23:57 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 289 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:23:59 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:24:03 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:24:43 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 289 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:24:44 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:25:25 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:25:25 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:26:16 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:26:16 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:27:03 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:27:03 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:27:09 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 289 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:27:11 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:27:18 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:27:21 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 289 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:27:24 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:30:31 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:30:31 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:30:35 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 289 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:30:37 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:30:45 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 289 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:30:46 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:30:51 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:30:54 +0000] "GET /api/v1/category/all HTTP/1.1" 202 110 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:30:54 +0000] "GET /api/v1/house/attachments/1 HTTP/1.1" 202 294 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:31:09 +0000] "GET /api/v1/house/attachments/4 HTTP/1.1" 202 59 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:31:09 +0000] "GET /api/v1/category/all HTTP/1.1" 202 110 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:31:13 +0000] "GET /api/v1/category/all HTTP/1.1" 202 110 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:31:13 +0000] "GET /api/v1/house/attachments/3 HTTP/1.1" 202 307 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:31:16 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 289 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:31:39 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:31:44 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:31:44 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:31:47 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:31:47 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:31:53 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:31:53 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:31:55 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 289 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:32:04 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 289 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:32:06 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:32:12 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:32:14 +0000] "GET /api/v1/category/all HTTP/1.1" 202 110 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:32:14 +0000] "GET /api/v1/house/attachments/1 HTTP/1.1" 202 294 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:32:19 +0000] "GET /api/v1/category/all HTTP/1.1" 202 110 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:32:19 +0000] "GET /api/v1/house/attachments/4 HTTP/1.1" 202 59 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:33:53 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 289 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:33:55 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:22:51:16 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:127.0.0.1 - - [23/Oct/2020:23:09:14 +0000] "GET /api/v1/house/search/filter/%7Bid%7D/ HTTP/1.1" 202 42 "-" "PostmanRuntime/7.26.4"
+
+error: uncaughtException: Identifier 'houbeByCategoryAndCity' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:311
+const houbeByCategoryAndCity = (req, res, next) => {
+      ^
+
+SyntaxError: Identifier 'houbeByCategoryAndCity' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:311\nconst houbeByCategoryAndCity = (req, res, next) => {\n      ^\n\nSyntaxError: Identifier 'houbeByCategoryAndCity' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:10:13 GMT+0100 (West Africa Standard Time)","process":{"pid":11996,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145969152,"heapTotal":16777216,"heapUsed":9694304,"external":110361969}},"os":{"loadavg":[0,0,0],"uptime":274705},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'houbeByCategoryAndCity' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:311
+const houbeByCategoryAndCity = (req, res, next) => {
+      ^
+
+SyntaxError: Identifier 'houbeByCategoryAndCity' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:311\nconst houbeByCategoryAndCity = (req, res, next) => {\n      ^\n\nSyntaxError: Identifier 'houbeByCategoryAndCity' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:10:16 GMT+0100 (West Africa Standard Time)","process":{"pid":4036,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145920000,"heapTotal":17039360,"heapUsed":9693352,"external":110323409}},"os":{"loadavg":[0,0,0],"uptime":274708},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Unexpected identifier
+C:\Users\User\source\repos\API\API\services\house\house.js:314
+    let type = req.query.type;
+        ^^^^
+
+SyntaxError: Unexpected identifier
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:314\n    let type = req.query.type;\n        ^^^^\n\nSyntaxError: Unexpected identifier\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:11:07 GMT+0100 (West Africa Standard Time)","process":{"pid":14524,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145891328,"heapTotal":16777216,"heapUsed":9694320,"external":110323419}},"os":{"loadavg":[0,0,0],"uptime":274759},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Unexpected identifier
+C:\Users\User\source\repos\API\API\services\house\house.js:314
+    let type = req.query.type;
+        ^^^^
+
+SyntaxError: Unexpected identifier
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:314\n    let type = req.query.type;\n        ^^^^\n\nSyntaxError: Unexpected identifier\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:11:11 GMT+0100 (West Africa Standard Time)","process":{"pid":12524,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145768448,"heapTotal":17039360,"heapUsed":9620600,"external":110323429}},"os":{"loadavg":[0,0,0],"uptime":274763},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Unexpected identifier
+C:\Users\User\source\repos\API\API\services\house\house.js:314
+    let type = req.query.type;
+        ^^^^
+
+SyntaxError: Unexpected identifier
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:314\n    let type = req.query.type;\n        ^^^^\n\nSyntaxError: Unexpected identifier\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:11:17 GMT+0100 (West Africa Standard Time)","process":{"pid":12816,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145772544,"heapTotal":16777216,"heapUsed":9660776,"external":110323429}},"os":{"loadavg":[0,0,0],"uptime":274768},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:12:17 GMT+0100 (West Africa Standard Time)","process":{"pid":20096,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145829888,"heapTotal":16777216,"heapUsed":9688408,"external":110361997}},"os":{"loadavg":[0,0,0],"uptime":274828},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:12:41 GMT+0100 (West Africa Standard Time)","process":{"pid":5868,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":146055168,"heapTotal":17039360,"heapUsed":9664304,"external":110361996}},"os":{"loadavg":[0,0,0],"uptime":274852},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:12:45 GMT+0100 (West Africa Standard Time)","process":{"pid":4000,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145858560,"heapTotal":16777216,"heapUsed":9692072,"external":110361997}},"os":{"loadavg":[0,0,0],"uptime":274856},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:12:46 GMT+0100 (West Africa Standard Time)","process":{"pid":3168,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145981440,"heapTotal":16777216,"heapUsed":9623744,"external":110323432}},"os":{"loadavg":[0,0,0],"uptime":274858},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:12:53 GMT+0100 (West Africa Standard Time)","process":{"pid":19532,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145809408,"heapTotal":16777216,"heapUsed":9716320,"external":110361992}},"os":{"loadavg":[0,0,0],"uptime":274865},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:12:55 GMT+0100 (West Africa Standard Time)","process":{"pid":16356,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145866752,"heapTotal":16777216,"heapUsed":9690760,"external":110323429}},"os":{"loadavg":[0,0,0],"uptime":274867},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:12:57 GMT+0100 (West Africa Standard Time)","process":{"pid":6160,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145817600,"heapTotal":16777216,"heapUsed":9661592,"external":110323434}},"os":{"loadavg":[0,0,0],"uptime":274869},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:13:02 GMT+0100 (West Africa Standard Time)","process":{"pid":11872,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145825792,"heapTotal":16777216,"heapUsed":9622456,"external":110323442}},"os":{"loadavg":[0,0,0],"uptime":274874},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:13:07 GMT+0100 (West Africa Standard Time)","process":{"pid":18092,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145952768,"heapTotal":16777216,"heapUsed":9617640,"external":110323453}},"os":{"loadavg":[0,0,0],"uptime":274878},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:13:11 GMT+0100 (West Africa Standard Time)","process":{"pid":9476,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145801216,"heapTotal":16777216,"heapUsed":9663184,"external":110323457}},"os":{"loadavg":[0,0,0],"uptime":274882},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:13:17 GMT+0100 (West Africa Standard Time)","process":{"pid":836,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145895424,"heapTotal":16777216,"heapUsed":9692736,"external":110323463}},"os":{"loadavg":[0,0,0],"uptime":274888},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:13:23 GMT+0100 (West Africa Standard Time)","process":{"pid":19424,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145985536,"heapTotal":16777216,"heapUsed":9660920,"external":110323468}},"os":{"loadavg":[0,0,0],"uptime":274894},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:13:26 GMT+0100 (West Africa Standard Time)","process":{"pid":6388,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145915904,"heapTotal":16777216,"heapUsed":9742616,"external":110362034}},"os":{"loadavg":[0,0,0],"uptime":274898},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:13:42 GMT+0100 (West Africa Standard Time)","process":{"pid":13156,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145817600,"heapTotal":16777216,"heapUsed":9618392,"external":110323438}},"os":{"loadavg":[0,0,0],"uptime":274914},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:14:41 GMT+0100 (West Africa Standard Time)","process":{"pid":14972,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":146186240,"heapTotal":16777216,"heapUsed":9695960,"external":110323416}},"os":{"loadavg":[0,0,0],"uptime":274973},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:14:46 GMT+0100 (West Africa Standard Time)","process":{"pid":17816,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145842176,"heapTotal":16777216,"heapUsed":9693256,"external":110361970}},"os":{"loadavg":[0,0,0],"uptime":274978},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:14:48 GMT+0100 (West Africa Standard Time)","process":{"pid":11924,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145776640,"heapTotal":17039360,"heapUsed":9661584,"external":110323405}},"os":{"loadavg":[0,0,0],"uptime":274980},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:15:16 GMT+0100 (West Africa Standard Time)","process":{"pid":19484,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145997824,"heapTotal":16777216,"heapUsed":9693168,"external":110361976}},"os":{"loadavg":[0,0,0],"uptime":275007},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:15:19 GMT+0100 (West Africa Standard Time)","process":{"pid":6500,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145707008,"heapTotal":16777216,"heapUsed":9660440,"external":110361981}},"os":{"loadavg":[0,0,0],"uptime":275011},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:15:21 GMT+0100 (West Africa Standard Time)","process":{"pid":2140,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145780736,"heapTotal":16777216,"heapUsed":9660384,"external":110323418}},"os":{"loadavg":[0,0,0],"uptime":275012},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:15:23 GMT+0100 (West Africa Standard Time)","process":{"pid":1760,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145784832,"heapTotal":16777216,"heapUsed":9624640,"external":110323429}},"os":{"loadavg":[0,0,0],"uptime":275015},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:15:27 GMT+0100 (West Africa Standard Time)","process":{"pid":9516,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145768448,"heapTotal":17039360,"heapUsed":9728888,"external":110362001}},"os":{"loadavg":[0,0,0],"uptime":275018},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:15:57 GMT+0100 (West Africa Standard Time)","process":{"pid":1756,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145895424,"heapTotal":16777216,"heapUsed":9692160,"external":110362001}},"os":{"loadavg":[0,0,0],"uptime":275049},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:16:00 GMT+0100 (West Africa Standard Time)","process":{"pid":6816,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145760256,"heapTotal":16777216,"heapUsed":9632824,"external":110323437}},"os":{"loadavg":[0,0,0],"uptime":275051},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:16:10 GMT+0100 (West Africa Standard Time)","process":{"pid":5768,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":146100224,"heapTotal":16777216,"heapUsed":9727752,"external":110362001}},"os":{"loadavg":[0,0,0],"uptime":275062},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:16:15 GMT+0100 (West Africa Standard Time)","process":{"pid":15776,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145801216,"heapTotal":16777216,"heapUsed":9696288,"external":110323437}},"os":{"loadavg":[0,0,0],"uptime":275067},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:16:24 GMT+0100 (West Africa Standard Time)","process":{"pid":6032,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145829888,"heapTotal":16777216,"heapUsed":9633688,"external":110323437}},"os":{"loadavg":[0,0,0],"uptime":275075},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:16:28 GMT+0100 (West Africa Standard Time)","process":{"pid":13656,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145735680,"heapTotal":17039360,"heapUsed":9639856,"external":110323437}},"os":{"loadavg":[0,0,0],"uptime":275079},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Identifier 'street' has already been declared
+C:\Users\User\source\repos\API\API\services\house\house.js:315
+    let street = req.query.street;
+        ^
+
+SyntaxError: Identifier 'street' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\controllers\apis\house.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:315\n    let street = req.query.street;\n        ^\n\nSyntaxError: Identifier 'street' has already been declared\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js:2:22)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 00:17:22 GMT+0100 (West Africa Standard Time)","process":{"pid":19844,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":145956864,"heapTotal":16777216,"heapUsed":9743832,"external":110362002}},"os":{"loadavg":[0,0,0],"uptime":275134},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":22,"file":"C:\\Users\\User\\source\\repos\\API\\API\\controllers\\apis\\house.js","function":null,"line":2,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: city is not defined
+ReferenceError: city is not defined
+    at C:\Users\User\source\repos\API\API\services\house\house.js:328:580
+    at C:\Users\User\source\repos\API\API\node_modules\express-myconnection\lib\express-myconnection.js:89:25
+    at Handshake.onConnect (C:\Users\User\source\repos\API\API\node_modules\mysql\lib\Pool.js:64:7)
+    at Handshake.<anonymous> (C:\Users\User\source\repos\API\API\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\User\source\repos\API\API\node_modules\mysql\lib\Connection.js:488:16)
+    at Handshake.Sequence.end (C:\Users\User\source\repos\API\API\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Handshake.Sequence.OkPacket (C:\Users\User\source\repos\API\API\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (C:\Users\User\source\repos\API\API\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\User\source\repos\API\API\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\User\source\repos\API\API\node_modules\mysql\lib\protocol\Parser.js:43:10) {"error":{},"stack":"ReferenceError: city is not defined\n    at C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:328:580\n    at C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\express-myconnection\\lib\\express-myconnection.js:89:25\n    at Handshake.onConnect (C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\Pool.js:64:7)\n    at Handshake.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Handshake._callback (C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\Connection.js:488:16)\n    at Handshake.Sequence.end (C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:83:24)\n    at Handshake.Sequence.OkPacket (C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:92:8)\n    at Protocol._parsePacket (C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)","exception":true,"date":"Sat Oct 24 2020 00:18:27 GMT+0100 (West Africa Standard Time)","process":{"pid":17952,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":148717568,"heapTotal":18706432,"heapUsed":12771512,"external":110409419}},"os":{"loadavg":[0,0,0],"uptime":275198},"trace":[{"column":580,"file":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js","function":null,"line":328,"method":null,"native":false},{"column":25,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\express-myconnection\\lib\\express-myconnection.js","function":null,"line":89,"method":null,"native":false},{"column":7,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\Pool.js","function":"Handshake.onConnect","line":64,"method":"onConnect","native":false},{"column":10,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\Connection.js","function":null,"line":526,"method":null,"native":false},{"column":16,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\Connection.js","function":"Handshake._callback","line":488,"method":"_callback","native":false},{"column":24,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js","function":"Handshake.Sequence.end","line":83,"method":"end","native":false},{"column":8,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js","function":"Handshake.Sequence.OkPacket","line":92,"method":"OkPacket","native":false},{"column":23,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\Protocol.js","function":"Protocol._parsePacket","line":291,"method":"_parsePacket","native":false},{"column":10,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\Parser.js","function":"Parser._parsePacket","line":433,"method":"_parsePacket","native":false},{"column":10,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\Parser.js","function":"Parser.write","line":43,"method":"write","native":false}]}
+error: uncaughtException: city is not defined
+ReferenceError: city is not defined
+    at C:\Users\User\source\repos\API\API\services\house\house.js:328:580
+    at C:\Users\User\source\repos\API\API\node_modules\express-myconnection\lib\express-myconnection.js:89:25
+    at Handshake.onConnect (C:\Users\User\source\repos\API\API\node_modules\mysql\lib\Pool.js:64:7)
+    at Handshake.<anonymous> (C:\Users\User\source\repos\API\API\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\User\source\repos\API\API\node_modules\mysql\lib\Connection.js:488:16)
+    at Handshake.Sequence.end (C:\Users\User\source\repos\API\API\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Handshake.Sequence.OkPacket (C:\Users\User\source\repos\API\API\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (C:\Users\User\source\repos\API\API\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\User\source\repos\API\API\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\User\source\repos\API\API\node_modules\mysql\lib\protocol\Parser.js:43:10) {"error":{},"stack":"ReferenceError: city is not defined\n    at C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:328:580\n    at C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\express-myconnection\\lib\\express-myconnection.js:89:25\n    at Handshake.onConnect (C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\Pool.js:64:7)\n    at Handshake.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Handshake._callback (C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\Connection.js:488:16)\n    at Handshake.Sequence.end (C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:83:24)\n    at Handshake.Sequence.OkPacket (C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:92:8)\n    at Protocol._parsePacket (C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)","exception":true,"date":"Sat Oct 24 2020 00:19:15 GMT+0100 (West Africa Standard Time)","process":{"pid":6916,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":148713472,"heapTotal":18706432,"heapUsed":12759888,"external":110409419}},"os":{"loadavg":[0,0,0],"uptime":275246},"trace":[{"column":580,"file":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js","function":null,"line":328,"method":null,"native":false},{"column":25,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\express-myconnection\\lib\\express-myconnection.js","function":null,"line":89,"method":null,"native":false},{"column":7,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\Pool.js","function":"Handshake.onConnect","line":64,"method":"onConnect","native":false},{"column":10,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\Connection.js","function":null,"line":526,"method":null,"native":false},{"column":16,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\Connection.js","function":"Handshake._callback","line":488,"method":"_callback","native":false},{"column":24,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js","function":"Handshake.Sequence.end","line":83,"method":"end","native":false},{"column":8,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js","function":"Handshake.Sequence.OkPacket","line":92,"method":"OkPacket","native":false},{"column":23,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\Protocol.js","function":"Protocol._parsePacket","line":291,"method":"_parsePacket","native":false},{"column":10,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\Parser.js","function":"Parser._parsePacket","line":433,"method":"_parsePacket","native":false},{"column":10,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\Parser.js","function":"Parser.write","line":43,"method":"write","native":false}]}
+error: uncaughtException: city is not defined
+ReferenceError: city is not defined
+    at C:\Users\User\source\repos\API\API\services\house\house.js:328:580
+    at C:\Users\User\source\repos\API\API\node_modules\express-myconnection\lib\express-myconnection.js:89:25
+    at Handshake.onConnect (C:\Users\User\source\repos\API\API\node_modules\mysql\lib\Pool.js:64:7)
+    at Handshake.<anonymous> (C:\Users\User\source\repos\API\API\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\User\source\repos\API\API\node_modules\mysql\lib\Connection.js:488:16)
+    at Handshake.Sequence.end (C:\Users\User\source\repos\API\API\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Handshake.Sequence.OkPacket (C:\Users\User\source\repos\API\API\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (C:\Users\User\source\repos\API\API\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\User\source\repos\API\API\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\User\source\repos\API\API\node_modules\mysql\lib\protocol\Parser.js:43:10) {"error":{},"stack":"ReferenceError: city is not defined\n    at C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js:328:580\n    at C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\express-myconnection\\lib\\express-myconnection.js:89:25\n    at Handshake.onConnect (C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\Pool.js:64:7)\n    at Handshake.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Handshake._callback (C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\Connection.js:488:16)\n    at Handshake.Sequence.end (C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:83:24)\n    at Handshake.Sequence.OkPacket (C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:92:8)\n    at Protocol._parsePacket (C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)","exception":true,"date":"Sat Oct 24 2020 00:20:35 GMT+0100 (West Africa Standard Time)","process":{"pid":6740,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":148193280,"heapTotal":18968576,"heapUsed":12789240,"external":110409419}},"os":{"loadavg":[0,0,0],"uptime":275326},"trace":[{"column":580,"file":"C:\\Users\\User\\source\\repos\\API\\API\\services\\house\\house.js","function":null,"line":328,"method":null,"native":false},{"column":25,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\express-myconnection\\lib\\express-myconnection.js","function":null,"line":89,"method":null,"native":false},{"column":7,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\Pool.js","function":"Handshake.onConnect","line":64,"method":"onConnect","native":false},{"column":10,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\Connection.js","function":null,"line":526,"method":null,"native":false},{"column":16,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\Connection.js","function":"Handshake._callback","line":488,"method":"_callback","native":false},{"column":24,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js","function":"Handshake.Sequence.end","line":83,"method":"end","native":false},{"column":8,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js","function":"Handshake.Sequence.OkPacket","line":92,"method":"OkPacket","native":false},{"column":23,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\Protocol.js","function":"Protocol._parsePacket","line":291,"method":"_parsePacket","native":false},{"column":10,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\Parser.js","function":"Parser._parsePacket","line":433,"method":"_parsePacket","native":false},{"column":10,"file":"C:\\Users\\User\\source\\repos\\API\\API\\node_modules\\mysql\\lib\\protocol\\Parser.js","function":"Parser.write","line":43,"method":"write","native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Oct/2020:23:21:20 +0000] "GET /api/v1/house/search/house?type=&street=city HTTP/1.1" 202 42 "-" "PostmanRuntime/7.26.4"
+
+info: ::ffff:127.0.0.1 - - [23/Oct/2020:23:21:32 +0000] "GET /api/v1/house/search/house?type=Appartements&street=city= HTTP/1.1" 202 42 "-" "PostmanRuntime/7.26.4"
+
+info: ::ffff:127.0.0.1 - - [23/Oct/2020:23:21:34 +0000] "GET /api/v1/house/search/house?type=Appartement&street=city= HTTP/1.1" 202 42 "-" "PostmanRuntime/7.26.4"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:23:22:01 +0000] "GET /api/v1/house/attachments/4 HTTP/1.1" 202 59 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:23:22:04 +0000] "GET /api/v1/category/all HTTP/1.1" 202 110 "-" "okhttp/4.8.1"
+
+info: ::ffff:127.0.0.1 - - [23/Oct/2020:23:22:24 +0000] "GET /api/v1/house/search/house?type=Appartements&street=Douala&city= HTTP/1.1" 202 42 "-" "PostmanRuntime/7.26.4"
+
+info: ::ffff:127.0.0.1 - - [23/Oct/2020:23:22:54 +0000] "GET /api/v1/house/search/house?type=Appartements&street=Douala&city= HTTP/1.1" 202 42 "-" "PostmanRuntime/7.26.4"
+
+info: ::ffff:127.0.0.1 - - [23/Oct/2020:23:23:11 +0000] "GET /api/v1/house/search/house?type=Appartements&street=Douala&city= HTTP/1.1" 202 42 "-" "PostmanRuntime/7.26.4"
+
+info: ::ffff:127.0.0.1 - - [23/Oct/2020:23:23:46 +0000] "GET /api/v1/house/search/house?type=Appartements&street=Douala&city= HTTP/1.1" 202 42 "-" "PostmanRuntime/7.26.4"
+
+info: ::ffff:127.0.0.1 - - [23/Oct/2020:23:24:08 +0000] "GET /api/v1/house/search/house?type=Appartements&street=Douala&city=Douala HTTP/1.1" 202 42 "-" "PostmanRuntime/7.26.4"
+
+info: ::ffff:127.0.0.1 - - [23/Oct/2020:23:25:05 +0000] "GET /api/v1/house/search/house?type=Appartements&street=Douala&city=Douala HTTP/1.1" 202 2315 "-" "PostmanRuntime/7.26.4"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:23:40:53 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:23:40:53 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:23:41:06 +0000] "GET /api/v1/house/search/house?street=&city= HTTP/1.1" 202 2315 "-" "okhttp/4.8.1"
+
+info: ::ffff:127.0.0.1 - - [23/Oct/2020:23:42:35 +0000] "GET /api/v1/house/search/house?type=Appartements&street=Douala&city=Douala HTTP/1.1" 202 2837 "-" "PostmanRuntime/7.26.4"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:23:42:46 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:23:42:46 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:23:42:55 +0000] "GET /api/v1/house/search/house?street=&city= HTTP/1.1" 202 2837 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:23:45:57 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:23:45:57 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:23:46:09 +0000] "GET /api/v1/house/search/house?street=&city= HTTP/1.1" 202 2837 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:23:46:28 +0000] "GET /api/v1/house/search/house?street=&city= HTTP/1.1" 202 2837 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:23:46:45 +0000] "GET /api/v1/house/search/house?street=&city= HTTP/1.1" 202 2837 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:23:46:50 +0000] "GET /api/v1/category/all HTTP/1.1" 202 110 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:23:46:50 +0000] "GET /api/v1/house/attachments/3 HTTP/1.1" 202 307 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:23:46:56 +0000] "GET /api/v1/category/all HTTP/1.1" 202 110 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:23:46:56 +0000] "GET /api/v1/house/attachments/2 HTTP/1.1" 202 284 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:23:47:00 +0000] "GET /api/v1/category/all HTTP/1.1" 202 110 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:23:47:00 +0000] "GET /api/v1/house/attachments/3 HTTP/1.1" 202 307 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:23:47:06 +0000] "GET /api/v1/house/search/house?street=&city= HTTP/1.1" 202 2837 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:23:47:14 +0000] "GET /api/v1/category/all HTTP/1.1" 202 110 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:23:47:14 +0000] "GET /api/v1/house/attachments/4 HTTP/1.1" 202 59 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:23:47:17 +0000] "GET /api/v1/house/attachments/3 HTTP/1.1" 202 307 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [23/Oct/2020:23:47:17 +0000] "GET /api/v1/category/all HTTP/1.1" 202 110 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [24/Oct/2020:07:37:29 +0000] "GET /api/v1/house/search/house?street=&city= HTTP/1.1" 202 2837 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [24/Oct/2020:07:37:42 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [24/Oct/2020:07:37:42 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [24/Oct/2020:07:37:43 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [24/Oct/2020:07:38:07 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 289 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [24/Oct/2020:07:38:20 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [24/Oct/2020:07:38:23 +0000] "GET /api/v1/category/all HTTP/1.1" 202 110 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [24/Oct/2020:07:38:23 +0000] "GET /api/v1/house/attachments/1 HTTP/1.1" 202 294 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [24/Oct/2020:07:38:28 +0000] "GET /api/v1/category/all HTTP/1.1" 202 110 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [24/Oct/2020:07:38:28 +0000] "GET /api/v1/house/attachments/4 HTTP/1.1" 202 59 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [24/Oct/2020:07:38:33 +0000] "GET /api/v1/category/all HTTP/1.1" 202 110 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [24/Oct/2020:07:38:33 +0000] "GET /api/v1/house/attachments/2 HTTP/1.1" 202 284 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [24/Oct/2020:07:38:44 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 289 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [24/Oct/2020:07:50:07 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [24/Oct/2020:07:50:07 +0000] "POST /api/v1/user/token/+237691635552 HTTP/1.1" 200 51 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [24/Oct/2020:07:50:16 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 289 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [24/Oct/2020:07:50:33 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [24/Oct/2020:07:50:36 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 289 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [24/Oct/2020:07:50:37 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [24/Oct/2020:07:50:40 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 289 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [24/Oct/2020:07:50:44 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 289 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [24/Oct/2020:07:51:34 +0000] "GET /api/v1/house/home HTTP/1.1" 202 2962 "-" "okhttp/4.8.1"
+
+info: ::ffff:192.168.1.101 - - [24/Oct/2020:07:51:37 +0000] "GET /api/v1/booking/user/+237691635552 HTTP/1.1" 202 289 "-" "okhttp/4.8.1"
+
+error: uncaughtException: Unexpected token '}'
+C:\Users\User\source\repos\API\API\configuration\database.js:19
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\configuration\app.js:13:14)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\configuration\\database.js:19\n}\n^\n\nSyntaxError: Unexpected token '}'\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\configuration\\app.js:13:14)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 08:53:11 GMT+0100 (West Africa Standard Time)","process":{"pid":2884,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":142446592,"heapTotal":14942208,"heapUsed":8381656,"external":110179804}},"os":{"loadavg":[0,0,0],"uptime":306082},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":14,"file":"C:\\Users\\User\\source\\repos\\API\\API\\configuration\\app.js","function":null,"line":13,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Unexpected token '}'
+C:\Users\User\source\repos\API\API\configuration\database.js:19
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\configuration\app.js:13:14)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\configuration\\database.js:19\n}\n^\n\nSyntaxError: Unexpected token '}'\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\configuration\\app.js:13:14)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 08:53:13 GMT+0100 (West Africa Standard Time)","process":{"pid":13936,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":142503936,"heapTotal":14942208,"heapUsed":8396968,"external":110179804}},"os":{"loadavg":[0,0,0],"uptime":306084},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":14,"file":"C:\\Users\\User\\source\\repos\\API\\API\\configuration\\app.js","function":null,"line":13,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}
+error: uncaughtException: Unexpected token '}'
+C:\Users\User\source\repos\API\API\configuration\database.js:19
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\User\source\repos\API\API\configuration\app.js:13:14)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32) {"error":{},"stack":"C:\\Users\\User\\source\\repos\\API\\API\\configuration\\database.js:19\n}\n^\n\nSyntaxError: Unexpected token '}'\n    at Module._compile (internal/modules/cjs/loader.js:895:18)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Module.require (internal/modules/cjs/loader.js:852:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (C:\\Users\\User\\source\\repos\\API\\API\\configuration\\app.js:13:14)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)","exception":true,"date":"Sat Oct 24 2020 08:53:16 GMT+0100 (West Africa Standard Time)","process":{"pid":12004,"uid":null,"gid":null,"cwd":"C:\\Users\\User\\source\\repos\\API\\API","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.13.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\User\\source\\repos\\API\\API\\server.js"],"memoryUsage":{"rss":142450688,"heapTotal":15204352,"heapUsed":8345152,"external":110179804}},"os":{"loadavg":[0,0,0],"uptime":306087},"trace":[{"column":18,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":895,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":727,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":852,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":14,"file":"C:\\Users\\User\\source\\repos\\API\\API\\configuration\\app.js","function":null,"line":13,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":959,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":995,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":815,"method":"load","native":false}]}

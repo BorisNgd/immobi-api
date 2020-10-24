@@ -11,5 +11,7 @@ router.get('/details/:id' , jwtMW , houseService.houseDetails);
 router.get('/search/filter/:id' , jwtMW , houseService.houbeByCategoryAndCity);
 router.get('/attachments/:id' , jwtMW , houseService.getHouseAttachments);
 router.get('/genres' , jwtMW , houseService.getHouseByHouseType);
+router.get('/home' , houseService.getHouseByGenre);
+router.get('/search/house' , houseService.searchHouse);
 
 module.exports = router;
