@@ -14,8 +14,8 @@
         password: 'root',
         database: 'bookings',
         port: 3306,
-        local:3000  */
-    }  
+        local:3000  
+    }  */
 }
 
 module.exports = config; 
